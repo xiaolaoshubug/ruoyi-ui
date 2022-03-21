@@ -4,8 +4,5 @@ stages:
   - runScriptConfig:
       image: node:latest
       shellScript: npm install --registry=https://registry.npm.taobao.org
-  - runScriptConfig:
-      image: node:latest
-      shellScript: npm run build:prod
 timeout: 60
 notification: {}
